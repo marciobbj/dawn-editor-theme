@@ -12,9 +12,8 @@ Dawn é um tema escuro e minimalista que evoca a suavidade do amanhecer, com uma
 
 ## Paleta de Cores
 <p style="text-align: center;">
-  <img style=" width: 200px; height: 320px; rotate: 90deg;" src="./imgs/dawncolor-palette.png" alt="Dawn no JetBrains IDEs" width="45%" />
+  <img style=" width: 200px; height: 320px;" src="./imgs/dawncolor-palette.png" alt="Dawn no JetBrains IDEs" width="45%" />
 </p>
-**Dica**: Consulte o arquivo de tema para ver os valores exatos em HEX e adaptar a personalização conforme seu gosto.
 
 ---
 
