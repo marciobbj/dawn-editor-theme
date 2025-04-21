@@ -5,14 +5,14 @@ Dawn é um tema escuro e minimalista que evoca a suavidade do amanhecer, com uma
 ---
 
 ## Visualizações de Exemplo
-<p align="center">
+<p style="text-align: center">
   <img src="./imgs/example_1.png" alt="Dawn no Sublime Text" width="45%" />
   <img src="./imgs/example_2.png" alt="Dawn no JetBrains IDEs" width="45%" />
 </p>
 
 ## Paleta de Cores
 <p style="text-align: center;">
-  <><img style=" width: 200px; height: 320px; rotate: 90deg;" src="./imgs/dawncolor-palette.png" alt="Dawn no JetBrains IDEs" width="45%" />
+  <img style=" width: 200px; height: 320px; rotate: 90deg;" src="./imgs/dawncolor-palette.png" alt="Dawn no JetBrains IDEs" width="45%" />
 </p>
 > **Dica**: Consulte o arquivo de tema para ver os valores exatos em HEX e adaptar a personalização conforme seu gosto.
 
