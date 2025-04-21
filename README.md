@@ -5,8 +5,7 @@ Dawn é um tema escuro e minimalista que evoca a suavidade do amanhecer, com uma
 ---
 
 ## Visualizações de Exemplo
-![Dawn Sublime Text](./imgs/example_1.png)
-![Dawn Jetbrains](./imgs/example_2.png)
+![Dawn Jetbrains](./imgs/example_1.png)
 
 ## Paleta de Cores
 ![Dawn Color Palette](./imgs/dawncolor-palette.png)
