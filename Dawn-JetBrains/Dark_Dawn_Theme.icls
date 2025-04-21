@@ -1,9 +1,9 @@
-<scheme name="Dawn copy1" version="142" parent_scheme="Darcula">
+<scheme name="Dark Dawn Theme" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">Python</property>
     <property name="ideVersion">2025.1.0.0</property>
-    <property name="originalScheme">Dawn</property>
+    <property name="originalScheme">Dawn copy1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="15" />
@@ -220,6 +220,11 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="d25b00" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -235,9 +240,19 @@
         <option name="FOREGROUND" value="ffa500" />
       </value>
     </option>
+    <option name="PY.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fee872" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="ffdf00" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_USAGE">
+      <value>
+        <option name="FOREGROUND" value="d25b00" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
@@ -253,6 +268,11 @@
     <option name="PY.STRING.U">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="PY.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="d25b00" />
       </value>
     </option>
     <option name="STRING">
