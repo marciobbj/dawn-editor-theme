@@ -6,14 +6,14 @@
     "fg": "#FFFFFF",
     "comment": "#bebebe",
     "keyword": "#d25b00",
-    "string": "#fee872",
+    "string": "#FEE872",
     "function": "#ffa500",
     "error": "#E06C75",
     "number": "#d19a66",
     "constant": "#d25b00",
     "class": "#ffa500",
-    "operator": "#ffdf00",
-    "decorator": "#ffdf00",
+    "operator": "#FEE872",
+    "decorator": "#FEE872",
     "parameter": "#d25b00"
   },
   "globals": {
