@@ -147,6 +147,12 @@
         <option name="FOREGROUND" value="d25b00" />
       </value>
     </option>
+    <option name="FOLDED_TEXT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="fee872" />
+        <option name="BACKGROUND" value="3a3a3a" />
+      </value>
+    </option>
     <option name="FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="d25b00" />
@@ -266,7 +272,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ffdf00" />
+        <option name="FOREGROUND" value="fee872" />
         <option name="BACKGROUND" value="2a2828" />
       </value>
     </option>
