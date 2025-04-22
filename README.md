@@ -74,5 +74,5 @@ Dawn é um tema escuro e minimalista que evoca a suavidade do amanhecer, com uma
 ---
 
 ## Suporte
-Abra uma issue no GitHub: https://github.com/seu-usuario/dawn-theme
+Abra uma issue no GitHub: https://github.com/marciobbj/dawn-theme
 
