@@ -207,7 +207,7 @@
     </option>
     <option name="OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="ffdf00" />
+        <option name="FOREGROUND" value="fee872" />
       </value>
     </option>
     <option name="PARAMETER">
@@ -247,7 +247,7 @@
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="ffdf00" />
+        <option name="FOREGROUND" value="fee872" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
@@ -277,7 +277,7 @@
     </option>
     <option name="STRING">
       <value>
-        <option name="FOREGROUND" value="ffdf00" />
+        <option name="FOREGROUND" value="fee872" />
       </value>
     </option>
     <option name="SUPER_METHOD_CALL">
@@ -292,7 +292,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="fee872" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="2a2828" />
       </value>
     </option>

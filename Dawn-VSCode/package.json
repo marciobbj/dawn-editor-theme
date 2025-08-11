@@ -1,0 +1,56 @@
+{
+  "name": "dawn-theme",
+  "displayName": "Dawn Theme",
+  "description": "Um tema escuro e minimalista que evoca a suavidade do amanhecer, projetado para proporcionar conforto visual durante longas sessões de programação.",
+  "version": "1.0.0",
+  "publisher": "marcionb",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "dawn",
+    "minimalist",
+    "comfort",
+    "programming",
+    "syntax highlighting"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#2a2828",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dawn Theme",
+        "uiTheme": "vs-dark",
+        "path": "./dawn-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcionb/dawn-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcionb/dawn-theme/issues"
+  },
+  "homepage": "https://github.com/marcionb/dawn-theme#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Márcio Bernardes Jr.",
+    "email": "marcionb@gmail.com"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.15.0"
+  }
+}

@@ -1,20 +1,26 @@
 {
-  "name": "Dawn",
+  "name": "Dawn Theme",
   "author": "Márcio Bernardes Jr.",
+  "description": "Tema escuro e minimalista que evoca a suavidade do amanhecer",
   "variables": {
     "bg": "#2a2828",
     "fg": "#FFFFFF",
     "comment": "#bebebe",
     "keyword": "#d25b00",
-    "string": "#FEE872",
+    "string": "#ffdf00",
     "function": "#ffa500",
     "error": "#E06C75",
     "number": "#d19a66",
     "constant": "#d25b00",
     "class": "#ffa500",
-    "operator": "#FEE872",
-    "decorator": "#FEE872",
-    "parameter": "#d25b00"
+    "operator": "#ffdf00",
+    "decorator": "#ffdf00",
+    "parameter": "#d25b00",
+    "variable": "#ffffff",
+    "type": "#ffa500",
+    "annotation": "#ffdf00",
+    "punctuation": "#ffffff",
+    "builtin": "#ffffff"
   },
   "globals": {
     "background": "var(bg)",
@@ -22,11 +28,26 @@
     "caret": "#FFFFFF",
     "line_highlight": "#2C313C",
     "selection": "#3E4451",
-    "selection_border": "#3E4451"
+    "selection_border": "#3E4451",
+    "gutter": "var(bg)",
+    "gutter_foreground": "#5C6370",
+    "guide": "#3E4451",
+    "active_guide": "#5C6370",
+    "stack_guide": "#3E4451"
   },
   "rules": [
     {
       "scope": "comment",
+      "foreground": "var(comment)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "comment.line",
+      "foreground": "var(comment)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "comment.block",
       "foreground": "var(comment)",
       "font_style": "italic"
     },
@@ -36,7 +57,28 @@
       "font_style": "bold"
     },
     {
+      "scope": "keyword.control",
+      "foreground": "var(keyword)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "var(operator)"
+    },
+    {
       "scope": "string",
+      "foreground": "var(string)"
+    },
+    {
+      "scope": "string.quoted",
+      "foreground": "var(string)"
+    },
+    {
+      "scope": "string.quoted.single",
+      "foreground": "var(string)"
+    },
+    {
+      "scope": "string.quoted.double",
       "foreground": "var(string)"
     },
     {
@@ -48,31 +90,76 @@
       "foreground": "var(constant)"
     },
     {
+      "scope": "constant.character",
+      "foreground": "var(string)"
+    },
+    {
       "scope": "variable.language",
       "foreground": "var(constant)"
     },
     {
-      "scope": "entity.name.function, support.function",
-      "foreground": "var(function)"
-    },
-    {
-      "scope": "entity.name.class, support.class",
-      "foreground": "var(class)"
+      "scope": "variable.other",
+      "foreground": "var(variable)"
     },
     {
       "scope": "variable.parameter",
       "foreground": "var(parameter)"
     },
     {
-      "scope": "meta.function.decorator, meta.annotation",
+      "scope": "entity.name.function",
+      "foreground": "var(function)"
+    },
+    {
+      "scope": "support.function",
+      "foreground": "var(function)"
+    },
+    {
+      "scope": "entity.name.class",
+      "foreground": "var(class)"
+    },
+    {
+      "scope": "support.class",
+      "foreground": "var(class)"
+    },
+    {
+      "scope": "entity.name.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "support.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "meta.function.decorator",
       "foreground": "var(decorator)"
     },
     {
-      "scope": "keyword.operator",
-      "foreground": "var(operator)"
+      "scope": "meta.annotation",
+      "foreground": "var(annotation)"
+    },
+    {
+      "scope": "punctuation.definition",
+      "foreground": "var(punctuation)"
+    },
+    {
+      "scope": "punctuation.separator",
+      "foreground": "var(punctuation)"
+    },
+    {
+      "scope": "punctuation.terminator",
+      "foreground": "var(punctuation)"
+    },
+    {
+      "scope": "support.function.builtin",
+      "foreground": "var(builtin)"
     },
     {
       "scope": "invalid",
+      "foreground": "var(error)",
+      "background": "#51202A"
+    },
+    {
+      "scope": "invalid.deprecated",
       "foreground": "var(error)",
       "background": "#51202A"
     }
